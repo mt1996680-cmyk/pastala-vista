@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasta La Vita | Authentic Italian Pasta & Dining in Wah Cantt</title>
+  <meta name="description" content="Experience Wah Cantt's finest Italian dining at Pasta La Vita. Homemade White Sauce & Flaming Red Sauce Pastas, Loaded Tandoori Fries, Private Dining & fast delivery. Rated 4.8★ on Google.">
+  <meta name="keywords" content="Pasta La Vita, Wah Cantt restaurants, pasta in Wah Cantt, Italian food New City, White sauce pasta, Chicken cheese pasta, fast delivery Wah Cantt">
+  <meta name="theme-color" content="#0f0e0d">
+
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Pasta La Vita | Best Italian Pasta in Wah Cantt">
+  <meta property="og:description" content="Craving authentic, cheesy homemade Italian pasta? Order Signature White Sauce, Chicken Cheese Pasta & Loaded Fries. Rated 4.8★ with 120+ reviews.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:type" content="restaurant">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Restaurant Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pasta La Vita",
+    "image": "images/hero.jpg",
+    "telephone": "+923001501945",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Main GT Rd, opposite New City, Phase-II",
+      "addressLocality": "Wah Cantt",
+      "postalCode": "47040",
+      "addressCountry": "PK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "33.7845",
+      "longitude": "72.7482"
+    },
+    "servesCuisine": ["Italian", "Pasta", "Fast Food Fusion"],
+    "priceRange": "Rs 1 - 1,000",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "121"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:00",
+        "closes": "22:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement" id="topAnnouncement">
+    <div class="container announcement-content">
+      <div class="announcement-left">
+        <span class="live-status-pill" id="liveStatusBadge">
+          <span class="pulse-dot"></span> Checking hours...
+        </span>
+        <span class="announcement-text">
+          <i class="fa-solid fa-fire"></i> Hot & Fresh Delivery across Wah Cantt & New City Phase 1 & 2!
+        </span>
+      </div>
+      <div class="announcement-right">
+        <a href="tel:03001501945" class="quick-contact-link"><i class="fa-solid fa-phone"></i> 0300 1501945</a>
+        <a href="https://instagram.com/pasta_la_vita" target="_blank" rel="noopener" class="quick-social"><i class="fa-brands fa-instagram"></i> @pasta_la_vita</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="main-header" id="mainHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="brand-sub">Ristorante Italiano</span>
+        <span class="brand-main">Pasta La Vita</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu & Deals</a>
+        <a href="#specials" class="nav-link">Highlights</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#location" class="nav-link">Visit & Contact</a>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="nav-actions">
+        <button class="btn btn-outline reserve-btn" id="openReserveBtn">
+          <i class="fa-regular fa-calendar-check"></i> Book Table
+        </button>
+        <button class="cart-toggle-btn" id="cartToggleBtn" aria-label="View Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-badge" id="cartCountBadge">0</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggleBtn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-rating-badge">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <span class="rating-text"><strong>4.8</strong> Rating on Google (121+ Verified Reviews)</span>
+        </div>
+
+        <h1 class="hero-title">
+          Authentic Italian Passion, <br>
+          <span class="text-gold">Crafted Fresh Daily</span> in Wah Cantt
+        </h1>
+
+        <p class="hero-lead">
+          Indulge in velvety Signature White Sauce, fiery Flaming Red Arrabbiata, baked mozzarella cheese pulls, and legendary Tandoori Tikka Fries. Homemade with love, served hot at your table or delivered right to your door.
+        </p>
+
+        <!-- Feature Pills -->
+        <div class="hero-highlights">
+          <div class="highlight-chip"><i class="fa-solid fa-cheese"></i> Rich Cheese Pull</div>
+          <div class="highlight-chip"><i class="fa-solid fa-utensils"></i> All-You-Can-Eat & Combos</div>
+          <div class="highlight-chip"><i class="fa-solid fa-door-open"></i> Private Dining Room</div>
+          <div class="highlight-chip"><i class="fa-solid fa-truck-fast"></i> Fast Doorstep Delivery</div>
+        </div>
+
+        <!-- Call to Actions -->
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">
+            <i class="fa-solid fa-utensils"></i> Explore Menu & Order
+          </a>
+          <a href="https://wa.me/923001501945?text=Hi%20Pasta%20La%20Vita!%20I%20would%20like%20to%20order%20delicious%20pasta." target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp Order
+          </a>
+          <a href="https://www.foodpanda.pk/restaurant/f548/pasta-la-vita-f548" target="_blank" rel="noopener" class="btn btn-foodpanda">
+            <i class="fa-solid fa-bicycle"></i> Order on foodpanda
+          </a>
+        </div>
+
+        <!-- Quick Info Strip -->
+        <div class="hero-quick-info">
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Main GT Rd, Opp. New City Phase-II & Mall of Wah</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Open Daily · 11:00 AM – 10:30 PM</span>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-wallet"></i>
+            <span>Affordable Luxury: Rs. 1 – 1,000 / Person</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Story Section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visuals">
+          <div class="image-card-main">
+            <img src="images/white_sauce.jpg" alt="Pasta La Vita Signature White Sauce Pasta Cheese Pull" loading="lazy">
+            <div class="floating-badge">
+              <span class="badge-num">100%</span>
+              <span class="badge-txt">Fresh Homemade Sauce</span>
+            </div>
+          </div>
+          <div class="image-card-sub">
+            <img src="images/tandoori_fries.jpg" alt="Loaded Tandoori Tikka Fries" loading="lazy">
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-tag"><i class="fa-solid fa-wheat-awn"></i> The Secret Recipe</div>
+          <h2 class="section-title">Where Italian Tradition Meets <span class="text-gold">Sublime Pakistani Flavors</span></h2>
+          <p class="about-desc">
+            At <strong>Pasta La Vita</strong>, we believe great food begins with slow-simmered sauces, prime cheeses, and genuine culinary craftsmanship. Located on Main GT Road right across New City Phase-II, we have become Wah Cantt's beloved pasta destination for families, foodies, and quick lunch-goers.
+          </p>
+          <p class="about-desc">
+            From our iconic <em>Signature White Sauce</em> infused with aromatic herbs to our <em>Flaming Red Sauce</em> and fusion <em>Tandoori Tikka Fries</em>, every plate is prepared fresh to order. Whether you are dining in our intimate private room or ordering takeaway for movie night, we guarantee warm indulgence in every bite.
+          </p>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <span class="stat-number">4.8★</span>
+              <span class="stat-label">Google Rating</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">121+</span>
+              <span class="stat-label">Satisfied Reviews</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">30 min</span>
+              <span class="stat-label">Average Delivery</span>
+            </div>
+          </div>
+
+          <div class="about-features-list">
+            <div class="feat-item"><i class="fa-solid fa-check-circle"></i> Pure mozzarella & artisanal parmesan cheeses</div>
+            <div class="feat-item"><i class="fa-solid fa-check-circle"></i> Private dining room available for family gatherings & birthdays</div>
+            <div class="feat-item"><i class="fa-solid fa-check-circle"></i> Custom spice adjustments: Mild, Balanced, or Extra Spicy</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chef's Highlights / Signature Specialities -->
+  <section class="specials-section section-padding bg-darker" id="specials">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-crown"></i> Customer Favorites</div>
+        <h2 class="section-title">Signature Dishes You <span class="text-gold">Must Experience</span></h2>
+        <p class="section-subtitle">Specially curated and adored by hundreds of pasta lovers across Wah Cantt & Rawalpindi.</p>
+      </div>
+
+      <div class="specials-grid">
+        <!-- Special 1 -->
+        <div class="special-card">
+          <div class="special-img-wrapper">
+            <img src="images/white_sauce.jpg" alt="Signature White Sauce Pasta" loading="lazy">
+            <span class="card-badge bestseller">#1 Bestseller</span>
+            <span class="price-pill">Rs. 719 <del>Rs. 799</del></span>
+          </div>
+          <div class="special-body">
+            <div class="dish-meta">
+              <span class="cuisine-type"><i class="fa-solid fa-bowl-food"></i> White Sauce Series</span>
+              <span class="spice-level"><i class="fa-solid fa-pepper-hot"></i> Mild / Creamy</span>
+            </div>
+            <h3 class="special-title">Signature White Sauce Pasta</h3>
+            <p class="special-desc">
+              Velvety Italian Alfredo sauce cooked with garlic butter, tender herb-crusted grilled chicken, generous molten mozzarella, and freshly grated parmesan.
+            </p>
+            <div class="special-footer">
+              <button class="btn btn-sm btn-gold add-to-order-btn" data-id="1">
+                <i class="fa-solid fa-plus"></i> Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Special 2 -->
+        <div class="special-card">
+          <div class="special-img-wrapper">
+            <img src="images/red_sauce.jpg" alt="Flaming Red Sauce Pasta" loading="lazy">
+            <span class="card-badge spicy">Spicy Favorite</span>
+            <span class="price-pill">Rs. 719 <del>Rs. 799</del></span>
+          </div>
+          <div class="special-body">
+            <div class="dish-meta">
+              <span class="cuisine-type"><i class="fa-solid fa-fire-flame-curved"></i> Red Sauce Series</span>
+              <span class="spice-level text-danger"><i class="fa-solid fa-pepper-hot"></i><i class="fa-solid fa-pepper-hot"></i> Fiery Arrabbiata</span>
+            </div>
+            <h3 class="special-title">Flaming Red Sauce Pasta</h3>
+            <p class="special-desc">
+              Al dente penne bathed in a slow-simmered zesty tomato reduction with crushed red chilies, Italian herbs, sautéed capsicum, and flame-grilled chicken chunks.
+            </p>
+            <div class="special-footer">
+              <button class="btn btn-sm btn-gold add-to-order-btn" data-id="2">
+                <i class="fa-solid fa-plus"></i> Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Special 3 -->
+        <div class="special-card">
+          <div class="special-img-wrapper">
+            <img src="images/tandoori_fries.jpg" alt="Loaded Tandoori Tikka Fries" loading="lazy">
+            <span class="card-badge fusion">Crowd Magnet</span>
+            <span class="price-pill">Rs. 675 <del>Rs. 750</del></span>
+          </div>
+          <div class="special-body">
+            <div class="dish-meta">
+              <span class="cuisine-type"><i class="fa-solid fa-burger"></i> Loaded Sides</span>
+              <span class="spice-level"><i class="fa-solid fa-pepper-hot"></i> Medium Savory</span>
+            </div>
+            <h3 class="special-title">Tandoori Tikka Fries</h3>
+            <p class="special-desc">
+              Golden crispy french fries smothered with charbroiled chicken tikka, rich garlic mayo swirl, melted mozzarella, jalapeño slices, and house spices.
+            </p>
+            <div class="special-footer">
+              <button class="btn btn-sm btn-gold add-to-order-btn" data-id="9">
+                <i class="fa-solid fa-plus"></i> Add to Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-book-open"></i> Full Dining & Delivery Menu</div>
+        <h2 class="section-title">Explore Our <span class="text-gold">Culinary Selection</span></h2>
+        <p class="section-subtitle">Select your favorite dish, customize options, and place an instant order with direct WhatsApp delivery.</p>
+      </div>
+
+      <!-- Menu Category Tabs -->
+      <div class="menu-category-tabs" id="menuTabs">
+        <button class="tab-btn active" data-category="all">
+          <i class="fa-solid fa-layer-group"></i> All Dishes
+        </button>
+        <button class="tab-btn" data-category="white-sauce">
+          <i class="fa-solid fa-bowl-food"></i> White Sauce Pasta
+        </button>
+        <button class="tab-btn" data-category="red-sauce">
+          <i class="fa-solid fa-fire"></i> Flaming Red Sauce
+        </button>
+        <button class="tab-btn" data-category="sides">
+          <i class="fa-solid fa-cheese"></i> Fries & Appetizers
+        </button>
+        <button class="tab-btn" data-category="combos">
+          <i class="fa-solid fa-box-open"></i> Value Combos
+        </button>
+        <button class="tab-btn" data-category="drinks">
+          <i class="fa-solid fa-wine-glass"></i> Refreshers & Drinks
+        </button>
+      </div>
+
+      <!-- Search & Filters -->
+      <div class="menu-filter-bar">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="menuSearchInput" placeholder="Search by pasta, chicken, mushroom, fries...">
+        </div>
+        <div class="filter-toggles">
+          <button class="filter-tag-btn" data-filter="vegetarian"><i class="fa-solid fa-leaf"></i> Veg Options</button>
+          <button class="filter-tag-btn" data-filter="spicy"><i class="fa-solid fa-pepper-hot"></i> Spicy Only</button>
+        </div>
+      </div>
+
+      <!-- Menu Items Grid -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Table & Private Dining Booking Section -->
+  <section class="booking-section section-padding bg-darker" id="reservation">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <div class="section-tag"><i class="fa-solid fa-calendar-days"></i> Reserve Your Experience</div>
+          <h2 class="section-title">Host Your Gathering or <span class="text-gold">Private Dining</span></h2>
+          <p class="booking-desc">
+            Planning a family dinner, birthday celebration, anniversary, or a cozy evening with friends? Reserve a table or book our dedicated Private Dining Room opposite New City Phase-II.
+          </p>
+
+          <div class="booking-perks">
+            <div class="perk-box">
+              <i class="fa-solid fa-users"></i>
+              <div>
+                <h4>Private Family Dining</h4>
+                <p>Enjoy private spaces tailored for families, business catch-ups, and special events.</p>
+              </div>
+            </div>
+            <div class="perk-box">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <div>
+                <h4>Celebration Friendly</h4>
+                <p>Let us know in advance and we’ll arrange complimentary cake cutting setups!</p>
+              </div>
+            </div>
+            <div class="perk-box">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <div>
+                <h4>No Waiting Times</h4>
+                <p>Your table and hot fresh pasta will be ready right upon your arrival.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-form-card">
+          <h3 class="form-title">Reserve a Table</h3>
+          <form id="reservationForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resName">Full Name *</label>
+                <input type="text" id="resName" required placeholder="e.g. Saad Siddique">
+              </div>
+              <div class="form-group">
+                <label for="resPhone">Phone / WhatsApp *</label>
+                <input type="tel" id="resPhone" required placeholder="0300 1234567">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate">Reservation Date *</label>
+                <input type="date" id="resDate" required>
+              </div>
+              <div class="form-group">
+                <label for="resTime">Preferred Time *</label>
+                <select id="resTime" required>
+                  <option value="">Select Time</option>
+                  <option value="12:00 PM">12:00 PM (Lunch)</option>
+                  <option value="01:30 PM">01:30 PM</option>
+                  <option value="03:00 PM">03:00 PM</option>
+                  <option value="05:30 PM">05:30 PM (Evening)</option>
+                  <option value="07:30 PM">07:30 PM (Dinner)</option>
+                  <option value="08:45 PM">08:45 PM</option>
+                  <option value="09:45 PM">09:45 PM (Late Dinner)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resGuests">Number of Guests *</label>
+                <select id="resGuests" required>
+                  <option value="2 Persons">2 Persons (Couple)</option>
+                  <option value="4 Persons" selected>3 - 4 Persons</option>
+                  <option value="6 Persons">5 - 6 Persons</option>
+                  <option value="8+ Persons">8+ Persons (Private Room)</option>
+                  <option value="12+ Persons">12+ Persons (Party Platter)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="resArea">Seating Preference</label>
+                <select id="resArea">
+                  <option value="Main Dining Hall">Main Trattoria Hall</option>
+                  <option value="Private Dining Room">Private Dining Room</option>
+                  <option value="Mall Food Court">Mall of Wah Food Court</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="resNotes">Special Requests (Optional)</label>
+              <textarea id="resNotes" rows="2" placeholder="Birthday, anniversary, baby chair, extra spicy preference..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fa-regular fa-paper-plane"></i> Confirm Booking via WhatsApp
+            </button>
+            <p class="form-help-text">Instant confirmation sent to our manager via WhatsApp.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews & Social Proof Section -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-star"></i> Real Patron Reviews</div>
+        <h2 class="section-title">Loved by <span class="text-gold">Wah Cantt Foodies</span></h2>
+        <p class="section-subtitle">Real verified customer opinions and ratings from Google Maps.</p>
+      </div>
+
+      <!-- Rating Scorecard Banner -->
+      <div class="rating-overview-card">
+        <div class="score-big">
+          <span class="score-number">4.8</span>
+          <div class="stars gold-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span class="score-count">Based on 121 Google Reviews</span>
+        </div>
+
+        <div class="rating-bars">
+          <div class="bar-row">
+            <span>5 Stars</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 88%;"></div></div>
+            <span>88%</span>
+          </div>
+          <div class="bar-row">
+            <span>4 Stars</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 9%;"></div></div>
+            <span>9%</span>
+          </div>
+          <div class="bar-row">
+            <span>3 Stars</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 2%;"></div></div>
+            <span>2%</span>
+          </div>
+          <div class="bar-row">
+            <span>2 Stars</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 0.5%;"></div></div>
+            <span>0.5%</span>
+          </div>
+          <div class="bar-row">
+            <span>1 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 0.5%;"></div></div>
+            <span>0.5%</span>
+          </div>
+        </div>
+
+        <div class="review-action-box">
+          <p>Visited us recently in Wah Cantt?</p>
+          <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwiI6tCX_vmWAxUAAAAAHQAAAAAQHg..i&rlz=1C1HKFL_en-GBPK1199PK1199&fvr=1&pvq=Cg0vZy8xMXl0eTlubXlqIhsKFXJlc3RhdXJhbnRzIHdhaCBjYW50dBACGAM" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fa-brands fa-google"></i> Rate Us on Google
+          </a>
+        </div>
+      </div>
+
+      <!-- Testimonials Grid -->
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar-circle">SS</div>
+            <div class="author-info">
+              <h4>Saad Siddique</h4>
+              <span class="rev-date">Google Review · Local Guide</span>
+            </div>
+            <div class="rev-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p class="review-body">
+            "Hands down the best White Sauce Pasta in Wah Cantt! The sauce is super rich and authentic, loaded with tender grilled chicken chunks and genuine cheese pull. Delivered scorching hot within 25 minutes!"
+          </p>
+          <div class="review-item-tag"><i class="fa-solid fa-check"></i> Ordered: Signature White Sauce Pasta</div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar-circle">TA</div>
+            <div class="author-info">
+              <h4>Touseeq Ahmed</h4>
+              <span class="rev-date">Google Review</span>
+            </div>
+            <div class="rev-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p class="review-body">
+            "Their Tandoori Tikka Fries alongside the Flaming Red Sauce Pasta is an unbelievable combo. The spice kick is right on the money without overpowering the Italian herbal aroma. Excellent pricing too!"
+          </p>
+          <div class="review-item-tag"><i class="fa-solid fa-check"></i> Ordered: Tandoori Fries + Red Sauce Pasta</div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar-circle">MR</div>
+            <div class="author-info">
+              <h4>Maryam Rehman</h4>
+              <span class="rev-date">Google Review</span>
+            </div>
+            <div class="rev-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p class="review-body">
+            "We booked the private dining space for a family birthday. The ambiance was cozy, staff was very accommodating, and every single pasta bowl was fresh and steaming. Will definitely visit again!"
+          </p>
+          <div class="review-item-tag"><i class="fa-solid fa-check"></i> Dined: Private Dining Room</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location, Delivery & Hours Section -->
+  <section class="location-section section-padding bg-darker" id="location">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-map-location-dot"></i> Visit or Order Delivery</div>
+        <h2 class="section-title">Where to <span class="text-gold">Find Us</span></h2>
+        <p class="section-subtitle">Centrally located on Main GT Road right opposite New City Phase-II in Wah Cantt.</p>
+      </div>
+
+      <div class="location-grid">
+        <!-- Contact & Hours Details Card -->
+        <div class="location-card">
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="loc-text">
+              <h4>Our Locations</h4>
+              <p><strong>Primary Branch:</strong> Main GT Rd, opposite New City, Phase-II Wah Cantt, 47040</p>
+              <p><strong>Express Branch:</strong> Mall of Wah, Food Court, Wah Cantt</p>
+            </div>
+          </div>
+
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="loc-text">
+              <h4>Operating Hours</h4>
+              <ul class="hours-list">
+                <li><span>Monday – Sunday:</span> <strong>11:00 AM – 10:30 PM</strong></li>
+                <li><span>Friday Prayers Break:</span> <strong>01:00 PM – 02:00 PM</strong></li>
+                <li><span>Delivery Cutoff:</span> <strong>10:15 PM Daily</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="loc-text">
+              <h4>Contact & Delivery Hotline</h4>
+              <p><strong>Phone / WhatsApp:</strong> <a href="tel:03001501945" class="text-gold">0300 150 1945</a></p>
+              <p><strong>Instagram:</strong> <a href="https://instagram.com/pasta_la_vita" target="_blank" rel="noopener" class="text-gold">@pasta_la_vita</a></p>
+              <p><strong>Foodpanda:</strong> Search "Pasta La Vita" in Wah Cantt</p>
+            </div>
+          </div>
+
+          <div class="loc-item">
+            <div class="loc-icon"><i class="fa-solid fa-motorcycle"></i></div>
+            <div class="loc-text">
+              <h4>Delivery Coverage Zones</h4>
+              <p>New City Phase 1 & 2, Wah Cantt, Mall of Wah Area, Aslam Market, POF Colony, GT Road Corridor, and adjoining areas.</p>
+            </div>
+          </div>
+
+          <div class="loc-buttons">
+            <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwiI6tCX_vmWAxUAAAAAHQAAAAAQHg..i&rlz=1C1HKFL_en-GBPK1199PK1199&fvr=1&pvq=Cg0vZy8xMXl0eTlubXlqIhsKFXJlc3RhdXJhbnRzIHdhaCBjYW50dBACGAM" target="_blank" rel="noopener" class="btn btn-outline btn-block">
+              <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+            </a>
+            <a href="tel:03001501945" class="btn btn-primary btn-block">
+              <i class="fa-solid fa-phone-volume"></i> Call Restaurant (0300 1501945)
+            </a>
+          </div>
+        </div>
+
+        <!-- Visual Map & Storefront Mockup -->
+        <div class="map-container">
+          <div class="map-header">
+            <span><i class="fa-solid fa-satellite"></i> Wah Cantt Prime Location</span>
+            <span class="badge-tag">Opposite New City Phase-II</span>
+          </div>
+          <!-- Google Maps Embed Representation -->
+          <iframe 
+            title="Pasta La Vita Wah Cantt Map"
+            src="https://maps.google.com/maps?q=Main%20GT%20Rd,%20opposite%20New%20City,%20Phase-II%20Wah%20Cantt&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            class="map-frame" 
+            loading="lazy" 
+            allowfullscreen>
+          </iframe>
+          <div class="map-overlay-info">
+            <div class="pin-box">
+              <i class="fa-solid fa-utensils"></i>
+              <div>
+                <strong>Pasta La Vita</strong>
+                <span>Opp. New City Phase 2, Wah Cantt</span>
+              </div>
+            </div>
+            <a href="https://maps.google.com/maps?q=Main+GT+Rd+opposite+New+City+Phase-II+Wah+Cantt" target="_blank" class="directions-pill">
+              Get Directions <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide-Out Shopping / Order Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Order Cart">
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <i class="fa-solid fa-bag-shopping text-gold"></i>
+        <h3>Your Pasta Order</h3>
+      </div>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close Cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Empty State -->
+    <div class="cart-empty-state" id="cartEmptyState">
+      <i class="fa-solid fa-bowl-food"></i>
+      <h4>Your order is empty</h4>
+      <p>Explore our menu and add your favorite hot pasta, sides, or combos!</p>
+      <button class="btn btn-primary btn-sm" id="cartExploreBtn">Browse Menu</button>
+    </div>
+
+    <!-- Filled State -->
+    <div class="cart-filled-state" id="cartFilledState">
+      <div class="cart-items-list" id="cartItemsList">
+        <!-- Rendered by script.js -->
+      </div>
+
+      <!-- Checkout Details Form -->
+      <div class="cart-checkout-form">
+        <h4 class="checkout-title"><i class="fa-solid fa-location-crosshairs"></i> Delivery Information</h4>
+        <div class="cart-form-group">
+          <input type="text" id="custName" placeholder="Your Name *" required>
+        </div>
+        <div class="cart-form-group">
+          <input type="tel" id="custPhone" placeholder="Mobile / WhatsApp Number *" required>
+        </div>
+        <div class="cart-form-group">
+          <textarea id="custAddress" rows="2" placeholder="Complete Street Address & Landmark (e.g., Street 4, New City Phase 2, House 12)" required></textarea>
+        </div>
+        <div class="cart-form-group">
+          <select id="orderTypeSelect">
+            <option value="Home Delivery">Doorstep Delivery (Wah Cantt & New City)</option>
+            <option value="Self Pickup">Takeaway / Pickup</option>
+            <option value="Dine-in Order">Dine-in Pre-order</option>
+          </select>
+        </div>
+        <div class="cart-form-group">
+          <input type="text" id="custNotes" placeholder="Special Note (e.g. Extra spicy, no onions, extra fork)">
+        </div>
+      </div>
+
+      <div class="cart-summary-card">
+        <div class="summary-line">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">Rs. 0</span>
+        </div>
+        <div class="summary-line">
+          <span>Estimated Delivery Fee</span>
+          <span id="cartDeliveryFee">Rs. 100</span>
+        </div>
+        <div class="summary-line total-line">
+          <span>Grand Total</span>
+          <span id="cartGrandTotal">Rs. 100</span>
+        </div>
+      </div>
+
+      <div class="cart-action-buttons">
+        <button class="btn btn-whatsapp btn-block" id="whatsappCheckoutBtn">
+          <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp (0300 1501945)
+        </button>
+        <a href="https://www.foodpanda.pk/restaurant/f548/pasta-la-vita-f548" target="_blank" rel="noopener" class="btn btn-foodpanda btn-block">
+          <i class="fa-solid fa-bicycle"></i> Or Order via Foodpanda
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Reservation Modal Popup -->
+  <div class="modal-overlay" id="reserveModalOverlay">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeReserveModalBtn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-header">
+        <span class="section-tag"><i class="fa-solid fa-bell"></i> Table Reservation</span>
+        <h3>Reserve at Pasta La Vita</h3>
+        <p>Main GT Road, opposite New City Phase-II, Wah Cantt</p>
+      </div>
+      <div id="modalFormContainer">
+        <!-- Reusable form inside modal -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMessage">Item added to your order!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-sub">Ristorante Italiano</span>
+          <span class="brand-main">Pasta La Vita</span>
+          <p class="footer-bio">
+            Wah Cantt's premier Italian destination offering homemade fresh white and red sauce pastas, loaded sides, combos, and cozy dine-in spaces.
+          </p>
+          <div class="footer-rating-pill">
+            <span class="gold-text"><i class="fa-solid fa-star"></i> 4.8 / 5.0</span>
+            <span>(121 Google Reviews)</span>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Our Kitchen</a></li>
+            <li><a href="#menu">Full Menu & Pricing</a></li>
+            <li><a href="#specials">Bestsellers</a></li>
+            <li><a href="#reviews">Google Reviews</a></li>
+            <li><a href="#location">Location & Hours</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Menu Favorites</h4>
+          <ul>
+            <li><a href="#menu" data-cat="white-sauce">Signature White Sauce</a></li>
+            <li><a href="#menu" data-cat="white-sauce">Chicken Cheese Pasta</a></li>
+            <li><a href="#menu" data-cat="red-sauce">Flaming Red Sauce Pasta</a></li>
+            <li><a href="#menu" data-cat="sides">Tandoori Tikka Fries</a></li>
+            <li><a href="#menu" data-cat="combos">Family Feast Combo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Connect & Order</h4>
+          <p><i class="fa-solid fa-phone text-gold"></i> <a href="tel:03001501945">0300 150 1945</a></p>
+          <p><i class="fa-brands fa-whatsapp text-gold"></i> <a href="https://wa.me/923001501945" target="_blank">0300 150 1945</a></p>
+          <p><i class="fa-brands fa-instagram text-gold"></i> <a href="https://instagram.com/pasta_la_vita" target="_blank">@pasta_la_vita</a></p>
+          <p><i class="fa-solid fa-location-dot text-gold"></i> Opp. New City Phase-II, Wah Cantt</p>
+          <div class="social-icon-row">
+            <a href="https://instagram.com/pasta_la_vita" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/923001501945" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.foodpanda.pk/restaurant/f548/pasta-la-vita-f548" target="_blank" aria-label="Foodpanda"><i class="fa-solid fa-bicycle"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pasta La Vita. All Rights Reserved. Crafted with passion for Italian food lovers in Wah Cantt.</p>
+        <p class="halal-tag"><i class="fa-solid fa-shield-halved"></i> 100% Halal Ingredients & Fresh Prep</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Action Bar for Mobile -->
+  <div class="mobile-sticky-bar">
+    <a href="tel:03001501945" class="mobile-bar-btn call">
+      <i class="fa-solid fa-phone"></i> Call
+    </a>
+    <a href="https://wa.me/923001501945?text=Hi%20Pasta%20La%20Vita!%20I%20would%20like%20to%20place%20an%20order." target="_blank" class="mobile-bar-btn whatsapp">
+      <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a>
+    <button class="mobile-bar-btn cart" id="mobileBarCartBtn">
+      <i class="fa-solid fa-bag-shopping"></i> Order (<span id="mobileBarCartCount">0</span>)
+    </button>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
